@@ -18,7 +18,7 @@ namespace Tyuiu.SokolovaHS.Sprint3.Task0.V23.Lib
                 double term = Math.Pow(1 / denominator, k);
                 sum += term;
             }
-            return (sum);
+            return Math.Round(sum,3);
         }
     }
 }
